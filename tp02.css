@@ -1,0 +1,18 @@
+div{
+    background-color: rgb(0, 0, 255);
+    padding: 20px;
+    margin: 20px;
+}
+h1 {display: block;
+    text-align: center;
+    color: white;
+   
+}
+li {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
