@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='formulaire.css'>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<form action=" https://digicode.cleverapps.io/utilisateurs/create  "method='post'>
+    <input type='hidden' name='idCreateur' value='thiounemoustapha'>
+    <label for="nom">Nom :</label>
+    <input type="text" name="nom" placeholder="Nom"> <br>
+    <label for="prenom">Prénom :</label>
+    <input type ='text' name ='prenom' placeholder="Prénom"> <br>
+    <label for="dateNaissance">Date de naissance :</label>
+    <input type="date" name="dateNaissance" placeholder="Date de naissance"> <br>
+    <label for="lieuNaissance">Lieu de naissance :</label>
+    <input type="text" name="lieuNaissance" placeholder="Lieu de naissance"> <br>
+    <label for ='departementNaissance'>Département de naissance :</label>
+    <select id="departementNaissance" name="departementNaissance">
+        <option value="">choisir un département</option>
+        <option value="34">34 - Hérault</option>
+        <option value="30">30 - Gard</option>
+        <option value="13">13 - Bouches-du-Rhône</option>
+        <option value="99">99 - Dakar</option>
+        <!-- Add more departments as needed -->
+    </select>
+    <fieldset>
+        <legend> Adresse</legend>
+        <label for="numeroRue">Numéro de rue :</label>
+        <input type="number" name="numeroRue" placeholder="Numéro de rue"> <br>
+        <label for="libelleRue">Nom de rue :</label>
+        <input type="text" name="libelleRue" placeholder="Nom de rue"> <br>
+        <label for="codePostal">Code postal :</label>
+        <input type="number" name="codePostal" placeholder="Code postal"> <br>
+        <label for="ville">Ville :</label>
+        <input type="text" name="ville" placeholder="Ville"> <br>
+    </fieldset> <br>
+    <button type="submit">Envoyer</button> <button type="reset">Effacer</button>
+        
+
+</form>
+
