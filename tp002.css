@@ -1,0 +1,26 @@
+div{
+    display: flex;
+    width: 50%;
+    background-color: #586cb4;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    color: rgb(13, 1, 1);
+    
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+li:hover{
+    background-color: #b49458;
+    color: white;
+    border: 2px solid #5c5e63;
+    cursor: pointer;
+}

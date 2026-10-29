@@ -23,3 +23,11 @@ th, td {
     text-align: right;
 }
 
+tr:nth-child(even) {
+    background-color: rgb(202, 166, 89);
+    color: rgb(240, 231, 231);
+}
+.texteDroite {
+    text-align: right;
+}
+
