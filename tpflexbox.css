@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+   background-color:rgb(179, 161, 140)
+}
+.header{
+    background-color:aqua;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:rgb(179, 161, 140)
+}
+nav{
+   flex-basis:25%;
+   background-color:rgb(214, 138, 51)
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color:rgb(172, 170, 167)
+}
+.sections{
+    display:flex;
+    flex-direction: row;
+    background-color:rgb(172, 170, 167);
+    gap: 20px;
+}
+.sections > section{
+    flex: 1;
+}
+h1,h2,h3{
+    text-align: center;
+}

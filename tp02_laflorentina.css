@@ -34,8 +34,12 @@ ul li a{
     color:white;
     padding : 10px;
 }
-ul li:hover,ul li:active,ul li a:focus{
+ul li:hover,ul li:active,ul li :focus-within{
     background-color:#009900;
     margin:10px;
 
+}
+footer a{
+    text-decoration : none;
+    color: #C03000 ;
 }
