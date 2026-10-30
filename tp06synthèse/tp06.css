@@ -1,0 +1,183 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    color: rgb(122, 9, 9);
+}
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2px;
+
+}
+.header nav a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+    margin: 10px;
+    color: brown;
+}
+
+.presentation{
+    background-color: rgb(122, 9, 9);
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.presentation h1{
+    font-size: 30px;
+  
+}
+.presentation p{
+    font-size: 15px;
+
+}
+.btn{
+    display: inline-block;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+.presentation2 {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+      gap: 30px;
+       padding: 20px; }
+ .presentation2 img { width: 50%;
+     height: auto; }
+  .texte-presentation{
+     flex: 1;
+     text-align: center;
+     }
+p img {
+    float: left;
+    margin-left: 15px;
+    margin-right: 50px;
+    width: 50%;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: rgb(11, 11, 16);
+    color: white;
+}
+
+
+form h1 {
+    color: rgb(122, 9, 9)
+}
+
+label{
+    display: block;
+    
+}
+.btn_form{
+    align-self: flex-start;
+    background-color: rgb(122, 9, 9);
+    color: white;
+    
+}
+.btn_form:hover{
+    cursor: pointer;
+    background-color: rgb(12, 160, 160);
+}
+.fond_contact{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 237, 229);
+    align-items: center;
+}
+.main_produit{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+   
+}
+.table_produit{
+    width: 80%;
+    border-collapse: collapse;
+    
+}
+.table_produit thead{
+    background-color: rgb(122,9,9);
+    color: white;
+}
+.table_produit th,td{
+    padding: 15px;
+    text-align: center;
+}
+tbody tr:nth-child(odd) {
+    background-color: #f2e8dc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+@media (max-width: 900px) {
+
+    /* Header */
+    .header {
+        flex-direction: column;
+    }
+
+    /* Navigation */
+    .header nav ul {
+        flex-direction: column;
+    }
+
+    /* Présentation principale */
+    .presentation {
+        text-align: center;
+    }
+
+    /* Notre philosophie */
+    .presentation2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presentation2 h2,
+    .presentation2 p {
+        text-align: center;
+    }
+
+    .presentation2 img {
+        width: 80%;
+        height: auto;
+    }
+
+    /* Tableau des produits */
+    table {
+        width: 100%;
+    }
+
+    /* Formulaire */
+    .fond_contact {
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer {
+        width: 100%;
+    }
+}
